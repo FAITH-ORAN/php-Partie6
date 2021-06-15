@@ -7,12 +7,14 @@
     <title>Php-Partie6</title>
 </head>
 <body>
+
+<!--les exo sont en comm j'ai ouvert plusieur pages target pour traiter les formulaires, et non pas sur la même page comme l'énnoncé car j'ai créé un seul vhost pour la partie 6, veuillez decommenter l'exercice voulu pour voir le résultat-->
 <h3 style="color:red;">Exercice 1</h3>
 <?php
 $target=fopen("target.php","a+");
 fclose($target);
 ?>
-<!--les exo sont en comm j'ai ouvert plusieur pages target pour traiter les formulaires, et non pas sur la même page comme l'énnoncé car j'ai créé un seul vhost pour la partie 6, veuillez decommenter l'exercice voulu pour voir le résultat-->
+
 <!--<form method="post" action="target.php">
 <label for="prenom">Entrez votre nom: </label>
 <input type="text" name="nom" id="prenom">
